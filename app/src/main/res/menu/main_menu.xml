@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <!--Home -->
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_foreground"/>
+        <!--About us-->
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@drawable/img_10"/>
+
+        <item
+            android:id="@+id/nav_aai_at_glance"
+            android:title="AAI at a Glance"
+            android:visible="false"
+            />
+
+        <item
+            android:id="@+id/nav_mission"
+            android:title="Mission and Vision"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_aai_board"
+            android:title="AAI Board"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_Org_structure"
+            android:title="Organizational Structure"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_chairman_message"
+            android:title="Chairman's Message"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_aai_corporate_film"
+            android:title="AAI Corporate Film"
+            android:visible="false" />
+        <!--Business info -->
+        <item
+            android:id="@+id/nav_business_info"
+            android:title="Business Info"
+            android:icon="@drawable/img_2"/>
+
+        <item
+            android:id="@+id/nav_traffic_news"
+            android:title="Traffic News"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_current_rates"
+            android:title="Current Rates"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_annual_reports"
+            android:title="Annual Reports"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_aai_moca"
+            android:title="Mou between AAI and MOCA"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_Traffic_survey"
+            android:title="Traffic Survey Result"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_indian_airports"
+            android:title="The list of Indian Airports"
+            android:visible="false" />
+
+        <!-- Services-->
+        <item
+            android:id="@+id/nav_services"
+            android:title="Services"
+            android:icon="@drawable/img_14"/>
+
+        <item
+            android:id="@+id/nav_passenger_facility"
+            android:title="Passengers Facility"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_air_navigation_services"
+            android:title="Air Navigation Services"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_airports_services"
+            android:title="Airports Services"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_fire_services"
+            android:title="Fire Services"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_project_services"
+            android:title="Project Services"
+            android:visible="false" />
+
+        <!--Tender-->
+        <item
+            android:id="@+id/nav_tender"
+            android:title="Tender"
+            android:icon="@drawable/img_4"/>
+
+            <item
+                android:id="@+id/nav_tender_search"
+                android:title="Tender Search"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_e_tender"
+                android:title="E-Tender"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_notice_inviting_tender"
+                android:title="Notice Inviting Tender"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_restaurant_tender"
+                android:title="Restaurant on Issue of Tender for AAI Works"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_contract_award"
+                android:title="Contract Award"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_tender_status"
+                android:title="Status of Tenders/Contracts"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_impediment_external_monitors"
+                android:title="Impediment External Monitors"
+                android:visible="false" />
+
+
+        <!--Vigilance -->
+        <item
+            android:id="@+id/nav_vigilance"
+            android:title="Vigilance"
+            android:icon="@drawable/img_13"/>
+
+        <item
+            android:id="@+id/nav_about_vigilance"
+            android:title="About Vigilance"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_publications"
+            android:title="Publications"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_system_improvement"
+            android:title="System Improvement Implemented"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_integrity_pact"
+            android:title="Integrity Pact"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_do_not_pay_bribe"
+            android:title="Do Not Pay Bribe"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_photo_gallery"
+            android:title="Photo Gallery"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us / Complaint"
+            android:visible="false" />
+
+
+        <!--Public info-->
+
+        <item
+            android:id="@+id/nav_public_info"
+            android:title="Public Info"
+            android:icon="@drawable/img_6"/>
+
+            <item
+                android:id="@+id/nav_citizen_charter"
+                android:title="Citizen Charter"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_right_to_information"
+                android:title="Right to Information"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_public_grievances"
+                android:title="Public Grievances"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_public_documents"
+                android:title="Public Documents"
+                android:visible="false" />
+
+        <item
+            android:id="@+id/nav_sports_control_board"
+            android:title="Sports Control Board"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_major_procurement_projections"
+            android:title="Major Procurement Projections"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_rules_policies"
+            android:title="Latest Updates on Rules and Policies"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_iso_certifications"
+            android:title="AAI ISO Certifications"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_best_practices"
+            android:title="Best Practices"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_dashboard_backlog_vacancies"
+            android:title="Dashboard on Backlog Vacancies"
+            android:visible="false" />
+        <!--CSR -->
+
+        <item
+            android:id="@+id/nav_csr"
+            android:title="CSR"
+            android:icon="@drawable/img_12"/>
+
+            <item
+                android:id="@+id/nav_about_aai_csr"
+                android:title="About AAI CSR"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_current_csr_committee"
+                android:title="Current CSR Committee"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_awards_accolades"
+                android:title="Awards and Accolades"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_csr_policy"
+                android:title="CSR Policy"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_csr_dpe_theme"
+                android:title="CSR - DPE Common Theme"
+                android:visible="false" />
+
+
+
+        <item
+            android:id="@+id/nav_csr_annual_plan"
+            android:title="CSR Annual Plan"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_case_stories"
+            android:title="Case Stories"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_circular_mom_letters"
+            android:title="Circular/MOM/Letters"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_swachh_vidyalaya_campaign"
+            android:title="Swachh Vidyalaya Campaign"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_csr_programmes"
+            android:title="CSR Programmes"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_csr_photo"
+            android:title="CSR Photo"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_media_coverage"
+            android:title="Media Coverage"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_csr_contact_us"
+            android:title="CSR Contact Us"
+            android:visible="false" />
+
+        <!--AAI airports-->
+        <item
+            android:id="@+id/nav_aai_airports"
+            android:title="AAI Airports"
+            android:icon="@drawable/img_11"/>
+
+            <item
+                android:id="@+id/nav_eastern_region"
+                android:title="Eastern Region"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_northeastern_region"
+                android:title="North Eastern Region"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_northern_region"
+                android:title="Northern Region"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_southern_region"
+                android:title="Southern Region"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_western_region"
+                android:title="Western Region"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_chennai"
+                android:title="Chennai"
+                android:visible="false" />
+
+            <item
+                android:id="@+id/nav_kolkata"
+                android:title="Kolkata"
+                android:visible="false" />
+
+
+    </group>
+</menu>
+
+
+

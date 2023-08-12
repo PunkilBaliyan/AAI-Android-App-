@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/actionBarMenu"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/img_18"
+        android:contentDescription="Open Menu"
+        android:elevation="3dp"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/actionBarTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Airport Authority of India"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

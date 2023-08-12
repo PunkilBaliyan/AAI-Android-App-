@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/img_16"
+        android:title="Home"/>
+    <item
+        android:id="@+id/action_notices"
+        android:icon="@drawable/img_17"
+        android:title="Notices"/>
+    <item
+        android:id="@+id/action_latest_tender"
+        android:icon="@drawable/img_4"
+        android:title="Latest Tender"/>
+
+    <item
+        android:id="@+id/action_important_links"
+        android:icon="@drawable/img_15"
+        android:title="Important Links"/>
+    <item
+        android:id="@+id/action_emp_login"
+        android:icon="@drawable/img_22"
+        android:title="Emp Login"/>
+</menu>
