@@ -14,14 +14,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-    <style name="Theme.AirportAuthorityOfIndia.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-    <style name="Theme.AirportAuthorityOfIndia.AppBarOverlay"
-        parent="ThemeOverlay.AppCompat.Light"/>
-    <style name="Theme.AirportAuthorityOfIndia.PopupOverlay"
-        parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="CustomActionBarTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/CustomActionBar</item>
     </style>
