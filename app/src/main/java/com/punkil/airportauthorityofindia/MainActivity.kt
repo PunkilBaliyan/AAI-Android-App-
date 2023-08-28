@@ -3,6 +3,7 @@ package com.punkil.airportauthorityofindia
 import SlideAdapter
 import SlidePagerTransformer
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 
 import android.view.MenuItem
@@ -78,11 +79,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         bottomNavigationView.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.action_notices -> {
-                    // Handle Notices click
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.aai.aero/en/what-s-new"))
+                    startActivity(intent)
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.action_latest_tender -> {
-                    // Handle Latest Tender click
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.aai.aero/en/tender/tender-search"))
+                    startActivity(intent)
                     return@setOnNavigationItemSelectedListener true
                 }
                 R.id.action_home -> {
